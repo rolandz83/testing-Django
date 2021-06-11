@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+
+.navbar {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow : auto;
+  background-color : #333;
+}
+
+.navbar-li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+.navbar-li:last-child {
+  border-right: none;
+  float: right;
+}
+
+li a {
+  display: block;
+  color : white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+li a:not(.active):hover {
+  background-color: #111;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<ul class="navbar">
+  <li class="navbar-li"><a class="active" href="/">Home</a></li>
+  <li class="navbar-li"><a href="/contact/">Contact</a></li>
+  <li class="navbar-li"><a href="/product/">Products</a></li>
+  <li class="navbar-li"><a href="/create/">Create</a></li>
+  <li class="navbar-li"><a href="/about/">About</a></li>
+</ul>
+
+
+
+</body>
+</html>

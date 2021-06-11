@@ -1,0 +1,1 @@
+Simple product db using django
